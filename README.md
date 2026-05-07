@@ -10,6 +10,12 @@ Cloner dans le dossier `src/app/services/services.common` du projet cible :
 git clone https://github.com/Revan027/services.common.git src/app/services/services.common
 ```
 
+## Prérequis npm
+
+```bash
+npm install @capacitor/camera @capacitor/filesystem
+```
+
 ## Configuration AppModule
 
 Tous les prérequis à déclarer dans l'`AppModule` :

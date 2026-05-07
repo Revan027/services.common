@@ -11,4 +11,8 @@ export class HttpService {
     get<T>(url: string): Observable<T> {
         return this.http.get<T>(url);
     }
+
+    post(url: string, body: FormData): Observable<Object> {
+        return this.http.post(url, body);
+    }
 }
